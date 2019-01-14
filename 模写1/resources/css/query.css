@@ -1,0 +1,97 @@
+/*Big tablet to 1200px: */
+@media only screen and (max-width: 1200px) {
+    
+}
+    
+
+/*small tablet to big tablet: from 768 to 1023*/
+@media only screen and (max-width: 1023px) {
+    
+    
+    .header-right {
+    display: none;
+}
+    
+    .urusee {
+        display: block;
+    }
+.main-nav  {
+    display: block;
+}
+    .main-nav {display: block;}
+    .main-nav p{display: block;}
+    .logo {
+        margin-left: 33%;
+        margin-top: 20%;
+    }
+    .logo:hover {
+        opacity: initial;
+    }
+    .header-right ul {
+        display: none;
+    }
+    
+    .trip-center p {
+        text-align: left;
+        width: 50%;
+    }
+    
+    .container-box {
+        width: 90%;
+    }
+    .box-k {
+        width: 100%;
+        display: block;
+    }
+    .products {
+        width: 40%;
+        float: left;
+    }
+    .box-k p {
+        width: 45%;
+        margin-left: initial;
+        display: inline-block;
+        margin-top: 
+    }
+    
+    .social {
+        width: 50%;
+    }
+    .social p {
+        margin: 7px 0;
+        padding: 5px 10px;
+        border: 1px solid;
+    }
+}
+    
+
+/* Small phone to small tablets 481 to 767px*/
+@media only screen and (max-width: 767px) {
+    .logo {
+        margin-left: 25%;
+        margin-top: 35%;
+    }
+    .trip-center p {
+        text-align: left;
+        width: 80%;
+    }
+    
+    .social-media {
+        width: 80%;
+    }
+    
+    .texts ul li {
+        display: block;
+    }
+    
+    .footer_img {
+        margin-left: 43%;
+    }
+}
+    
+/* Small phones: from 0 to 480px */
+    @media only screen and (max-width: 480px)　{
+    .social-media {
+        width: 60%;
+    }
+}
